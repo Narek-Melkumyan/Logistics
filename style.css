@@ -125,6 +125,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: 13px;
         a{
             padding: 10px;
+            color: black;
             text-decoration: none;
         }
     }
@@ -206,7 +207,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .blog-image{
-    width: 70%;
+    width: 100%;
 }
 .more{
     margin: 30px auto;
@@ -271,7 +272,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .small-icon{
     padding: 0 10px 0 0;
-    width: 20px;
+    width: 40px;
 }
 .export{
     .banner{
@@ -341,7 +342,7 @@ h1,h2,h3,h4,h5,h6{
 .small-logos-pictures{
     width: 16%;
     padding: 25px;
-    border: 1px solid;
+    border: 1px solid #c2bcbc4f;
     img{
         width: 100%;
     }
@@ -371,6 +372,9 @@ h1,h2,h3,h4,h5,h6{
     width: 5%;
 }
 .footer{
+    .small-bank-logos{
+        padding-top: 10px;
+    }
     .banner{
         background-color: transparent;
     }
@@ -379,10 +383,26 @@ h1,h2,h3,h4,h5,h6{
         list-style: none;
     }
     .small-icon{
-        padding: 0 2px 0 2px;
+        padding: 0 4px;
+        width: 30px;
     }
     .store-images-2{
         width: 13%;
+    }
+}
+.row-footer{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px 0;
+}
+
+.small-bank-logos{
+    width: 14%;
+    img{
+        width: 100%;
     }
 }
 .text1{
@@ -414,4 +434,13 @@ h1,h2,h3,h4,h5,h6{
 .grey-text{
     font-size: 13px;
     color: #7c7c7c;
+}
+.contact-background-color{
+    background-color: #f9f9f8;
+}
+.donwload-backround{
+    background-color: black;
+}
+.footer{
+    padding: 20px 0;
 }

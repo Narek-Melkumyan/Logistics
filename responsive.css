@@ -51,6 +51,9 @@
 .small-logos-pictures{
     width: 25%;
 }
+.small-bank-logos{
+    width: 25%;
+}
 }
 @media only screen and (max-width: 600px){
     .container-lg,.container-md,.container-sm{
@@ -88,6 +91,9 @@
     }
     .small-logos-pictures{
         width: 33%;
+    }
+    .small-bank-logos{
+        width: 50%;
     }
 }
 @media only screen and (max-width: 450px){
